@@ -1,0 +1,66 @@
+// _base.scss
+// base sass code / body / font style classes / Sections
+
+.body {
+  padding-top: 0px;
+  font-family: $font-stack;
+}
+
+//Font styles
+.headline1 {
+	font-family: $font-stack2;
+	color: $text-color;
+	font-size: 60px;
+}
+.headline2 {
+	@extend .headline1;
+	font-size: 32px;
+}
+.headline3 {
+	@extend .headline1;
+	font-size: 24px;
+}
+.base-text {
+	font-family: $font-stack;
+	color: $text-color;
+	opacity: 0.8;
+	font-size: 16px;
+}
+
+//% Vendors / Background image / (%)Only prints when extended
+%background-img-vendor {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+//Sections top / 1 / 2 / 3
+.section {
+	&-top {
+	padding: 150px 50px;
+	min-height: 750px;
+	background-image: url(../images/1.jpg);
+	@extend %background-img-vendor;
+     }
+
+	&1 {
+	padding: 150px 50px;
+	background-color: #FFF;
+	}
+
+	&2 {
+	padding: 100px 50px 150px 50px;
+
+	background-image: url(../images/2.jpg);
+	@extend %background-img-vendor;
+	}
+
+	&3 {
+	padding: 150px 50px;
+	background-color: #FFF;
+	}
+}
+
+@media only screen and (max-width: 768px){ .section1 h5 { font-size: 14px !important;} }

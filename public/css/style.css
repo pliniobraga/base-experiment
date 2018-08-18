@@ -1,0 +1,215 @@
+.body {
+  padding-top: 0px;
+  font-family: "Roboto", sans-serif, helvetica;
+}
+
+.headline1, .headline3, .headline2 {
+  font-family: "Playfair Display", serif;
+  color: #4a4a4a;
+  font-size: 60px;
+}
+
+.headline2 {
+  font-size: 32px;
+}
+
+.headline3 {
+  font-size: 24px;
+}
+
+.base-text, .card-text, .footer-text, .footer-bottom a {
+  font-family: "Roboto", sans-serif, helvetica;
+  color: #4a4a4a;
+  opacity: 0.8;
+  font-size: 16px;
+}
+
+.section2, .section-top {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section-top {
+  padding: 150px 50px;
+  min-height: 750px;
+  background-image: url(../images/1.jpg);
+}
+.section1 {
+  padding: 150px 50px;
+  background-color: #FFF;
+}
+.section2 {
+  padding: 100px 50px 150px 50px;
+  background-image: url(../images/2.jpg);
+}
+.section3 {
+  padding: 150px 50px;
+  background-color: #FFF;
+}
+
+@media only screen and (max-width: 768px) {
+  .section1 h5 {
+    font-size: 14px !important;
+  }
+}
+.button, .button-squared {
+  border-radius: 300px;
+  padding: 10px 30px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none !important;
+  font-size: 14px;
+  font-weight: 300;
+}
+.button.btn-neon, .btn-neon.button-squared {
+  background: #00adef;
+  /* For browsers that do not support gradients */
+  background: linear-gradient(to right, #00adef, #17befc);
+  /* Standard syntax (must be last) */
+  color: #FFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 174, 239, 0.4);
+}
+.button.btn-neon:hover, .btn-neon.button-squared:hover, .button.btn-neon:active, .btn-neon.button-squared:active {
+  background: #00adef !important;
+}
+.button.btn-white, .btn-white.button-squared {
+  background: #FFF;
+  /* For browsers that do not support gradients */
+  border: 1px solid #00adef;
+  color: #00adef;
+  box-shadow: 0 4px 8px 0 rgba(0, 174, 239, 0.4);
+}
+.button.btn-white:hover, .btn-white.button-squared:hover, .button.btn-white:active, .btn-white.button-squared:active {
+  border: 1px solid #17befc;
+}
+
+.button-squared {
+  border-radius: 3px;
+}
+
+.footer-top {
+  padding: 50px 50px;
+  background-color: #f8f8f8;
+}
+.footer-top a {
+  text-decoration: none;
+}
+
+.footer-bottom {
+  padding: 20px 50px 15px 50px;
+  background-color: #e6e6e6;
+}
+.footer-bottom a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-text {
+  font-size: 14px;
+  opacity: 0.75;
+  font-weight: 400;
+}
+
+.totop-btn {
+  position: absolute;
+  top: -70px;
+  right: 0;
+  background: #00adef;
+  padding: 35px 10px 10px 10px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.totop-btn:hover, .totop-btn:active {
+  padding: 10px 10px 35px 10px;
+  transition: 0.5s ease-in;
+}
+
+.social {
+  color: #00adef;
+  margin: 0 10px;
+}
+.social:hover {
+  color: #17befc;
+}
+
+.card-shadow {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.01), 0 10px 20px rgba(0, 0, 0, 0.02);
+}
+.card-shadow:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06), 0 10px 20px rgba(0, 0, 0, 0.07);
+}
+
+.card-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #00adef;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.card-text {
+  font-size: 14px;
+  opacity: 0.75;
+  margin-bottom: 35px;
+}
+
+.card-trim1 {
+  -webkit-clip-path: polygon(0 0, 50% 0, 100% 0, 100% 100%, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 50% 0, 100% 0, 100% 100%, 100% 90%, 0 100%);
+}
+.card-trim2 {
+  -webkit-clip-path: polygon(0 0, 50% 0, 100% 0, 100% 100%, 0 90%, 0 100%);
+  clip-path: polygon(0 0, 50% 0, 100% 0, 100% 100%, 0 90%, 0 100%);
+}
+
+.card-btn-arrow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 20px;
+  color: #00adef;
+  text-decoration: none;
+  font-size: 12px;
+}
+.card-btn-arrow:hover, .card-btn-arrow:active {
+  color: #17befc;
+}
+
+.navbar {
+  border-bottom: 1px solid #EEE;
+  background-color: white;
+}
+
+.scrolled {
+  border-bottom: 1px solid #FFF;
+  background-color: rgba(225, 249, 255, 0.9);
+  transition: 1.5s ease-in;
+}
+
+.navbar-menu-text a {
+  font-family: "Roboto", sans-serif, helvetica;
+  font-size: 14px;
+  font-weight: 400;
+}
+.navbar-menu-text a:hover, .navbar-menu-text a:active {
+  color: #00adef !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-btn {
+    margin: 15px 0 !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

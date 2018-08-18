@@ -1,0 +1,52 @@
+// _footer.scss
+// footer
+
+.footer-top {
+	padding: 50px 50px;
+	background-color: #f8f8f8;
+
+    a {
+    	text-decoration: none;
+    }
+}
+.footer-bottom {
+	padding: 20px 50px 15px 50px;
+	background-color: #e6e6e6;
+
+    a {
+	    display: inline-block;
+	    text-decoration: none;
+	    @extend .base-text;
+	    font-size: 14px;
+	  }
+}
+.footer-text {
+	@extend .base-text;
+	font-size: 14px;
+	opacity: 0.75;
+	font-weight: 400;
+}
+.totop-btn {
+     position: absolute;
+     top: -70px;
+     right: 0;
+     background: $primary-color;
+     padding: 35px 10px 10px 10px;
+     color: #fff;
+     font-size: 12px;
+     font-weight: 400;
+     text-transform: uppercase;
+
+     &:hover, &:active {
+     	padding: 10px 10px 35px 10px;
+     	transition: 0.5s ease-in;
+     }
+}
+.social {
+	color: $primary-color;
+	margin: 0 10px;
+
+	&:hover {
+		color:$primary-color-light;
+	}
+}

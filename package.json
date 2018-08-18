@@ -1,0 +1,16 @@
+{
+  "name": "base-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Plinio Braga",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.3",
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1"
+  }
+}

@@ -1,0 +1,39 @@
+// _buttons.scss
+// buttons
+
+.button {
+    border-radius: 300px;
+    padding: 10px 30px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none !important;
+    font-size: 14px;
+    font-weight: 300;
+
+    &.btn-neon {
+	    background: $primary-color; /* For browsers that do not support gradients */
+	    background: linear-gradient(to right, $primary-color , $primary-color-light); /* Standard syntax (must be last) */
+	    color: #FFF;
+	    box-shadow:
+	        0 4px 8px 0 $primary-color-shadow;
+
+		&:hover, &:active {
+		    background: $primary-color !important;
+		}
+    }
+    &.btn-white {
+        background: #FFF; /* For browsers that do not support gradients */
+	    border: 1px solid $primary-color;
+	    color: $primary-color;
+	    box-shadow:
+	        0 4px 8px 0 $primary-color-shadow;
+
+		&:hover, &:active {
+		    border: 1px solid $primary-color-light;
+		}
+    }
+}
+.button-squared {
+	@extend .button;
+	border-radius: 3px;
+}
