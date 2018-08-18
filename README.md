@@ -1,3 +1,3 @@
-# Install dependencies (Bootstrap + Jquery + AOS)
-cd base-experiment
+# Install dependencies (Bootstrap + jQuery + AOS)
+cd base-experiment  
 npm install
