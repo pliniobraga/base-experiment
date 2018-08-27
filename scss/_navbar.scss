@@ -11,10 +11,11 @@
 	transition: 1.5s ease-in;
 }
 .navbar-menu-text a  {
-	font-family: $font-stack;
-    font-size: 14px;
-    font-weight: 400;
-
+	  font: {
+			family: $font-stack;
+      size: 14px;
+      weight: 400;
+    }
     &:hover, &:active {
     	color: $primary-color !important;
     }
